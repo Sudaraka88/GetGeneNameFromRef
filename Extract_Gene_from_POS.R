@@ -30,4 +30,4 @@ map2gene = function(x, gene_data){
   return(list(x = x, gd = gd, dist_from_gene = overlap))
 }
 
-map2gene(100, gff_data)
+map2gene(100, gene_data)
